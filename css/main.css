@@ -111,6 +111,30 @@ h1 {
 	color: #616162;
 }
 
+        body {
+            text-align: center;
+            background: url("http://i.imgur.com/qQ8opcT.jpg");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+            font-family: Helvetica;
+        }
+        p {
+            font-size: 24px;
+        }
+        input {
+            border:0;
+            padding: 12px;
+            font-size: 18px;
+        }
+        input[type="submit"]{
+            background: limegreen;
+            color: black;
+        }
+    
+    
 
 
 
