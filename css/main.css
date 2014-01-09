@@ -103,17 +103,12 @@ textarea {
 	}
 	
 span {
-	font-family: Helvetica;
 	color: #E0A52E;
-}
-h1 {
-	font-family: Helvetica;
-	color: #616162;
 }
 
         body {
             text-align: center;
-            background: url("http://i.imgur.com/qQ8opcT.jpg");
+            background-color: #616162;
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
