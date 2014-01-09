@@ -101,6 +101,15 @@ textarea {
 			height: auto;
 			width: auto;
 	}
+	
+span {
+	font-family: Helvetica;
+	color: #E0A52E;
+}
+h1 {
+	font-family: Helvetica;
+	color: #616162;
+}
 
 
 
