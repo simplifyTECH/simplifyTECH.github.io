@@ -5,7 +5,7 @@ var blue = [196, 77, 55];
 var purple = [280, 50, 60];
 
 var myName = "simplifyTECH";
-var letterColors = [green, blue, purple]
+var letterColors = [green, blue, orange]
 if(22 > 12) {
     bubbleShape = "circle";
 }
