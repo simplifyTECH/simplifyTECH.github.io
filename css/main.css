@@ -101,12 +101,14 @@ textarea {
 			height: auto;
 			width: auto;
 	}
-	
+h1 {
+	font-size: 24px;
+}	
 span {
 	color: #E0A52E;
 }
 
-        body {
+body {
             text-align: center;
             background-color: #616162;
             background-size: cover;
@@ -116,15 +118,15 @@ span {
             color: white;
             font-family: Helvetica;
         }
-        p {
+p {
             font-size: 24px;
         }
-        input {
+input {
             border:0;
             padding: 12px;
             font-size: 18px;
         }
-        input[type="submit"]{
+input[type="submit"]{
             background: limegreen;
             color: black;
         }
