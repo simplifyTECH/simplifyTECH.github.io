@@ -96,14 +96,28 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+div{
+	height: 64px;
+	width: 64px;
+}
+#one{
+	background-color: orange;
+}
+#two{
+	background-color: green;
+}
+#three{
+	background-color: white;
+}
+#four{
+	background-color: red;
+}
 
-#myCanvas {
+#bubbly_logox {
 			height: auto;
 			width: auto;
 	}
-h1 {
-	font-size: 64px;
-}	
+
 span {
 	color: #E0A52E;
 }
