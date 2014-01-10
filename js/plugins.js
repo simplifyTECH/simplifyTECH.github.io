@@ -183,7 +183,7 @@ function Point(x, y, z, size, color) {
 }
 
 var canvas = $("#bubbly_logox");
-var canvasHeight = 100;
+var canvasHeight = 500;
 var canvasWidth = 1000;
 var screenWidth = canvasWidth;
 var ctx;
@@ -327,7 +327,7 @@ function update() {
 		pointCollection.update();
 }
 
-$("bubbly_logox").click(function(event) {
+$("bubbly_logox").keypress(function(event) {
     console.log(e);
 });
 
