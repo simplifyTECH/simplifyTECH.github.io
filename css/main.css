@@ -96,14 +96,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-span {
-	color: #E0A52E;
-}
-
 body {
             text-align: center;
             background-color: #616162;
@@ -114,9 +106,7 @@ body {
             color: white;
             font-family: Helvetica;
         }
-p {
-            font-size: 24px;
-        }
+
 input {
             border:0;
             padding: 12px;
