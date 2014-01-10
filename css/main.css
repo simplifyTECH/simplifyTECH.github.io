@@ -113,21 +113,21 @@ body {
         }
 #orange{
 		background: orange;
-		font-size:54px;
+		font-size:60px;
 		color:white;
 }
 
 
 #green {
             
-        font-size: 54px;
+        font-size: 60px;
         background: limegreen;
         color: white;
 }
 
 canvas {
 		padding: 4px;
-		border: 6px solid white;
+		border: 5px solid white;
 		border-radius: 24px;
 }
 
