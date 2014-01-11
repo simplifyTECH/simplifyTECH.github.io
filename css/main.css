@@ -99,12 +99,8 @@ textarea {
 
  
 body {
-            text-align: center;
-            background-color: #616162;
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+			background-color: #616162;
+			text-align:center;
             color: white;
             font-family: Helvetica;
 }
@@ -115,16 +111,16 @@ canvas {
                 border-radius: 24px;
 }
 
-table{
-		
-}
 
-#orange        {
+
+#orange	{
+				
                 font-size: 64px;
                 background: orange;
 }
 
 #green {
+		
         font-size: 64px;    
         background: limegreen;
 }

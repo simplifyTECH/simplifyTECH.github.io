@@ -30,3 +30,4 @@ $('#orange').click(function ()	{
 $('#green').click(function ()	{
 		$(this).slideUp	()	;
 	});
+	
