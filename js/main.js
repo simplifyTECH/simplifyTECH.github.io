@@ -7,7 +7,7 @@ var blue = [196, 77, 55];
 var purple = [280, 50, 60];
 
 var myName = "Tech Solutions";
-var letterColors = [green, orange, blue]
+var letterColors = [orange, green, blue]
 if(22 > 12) {
     bubbleShape = "circle";
 }
@@ -18,3 +18,26 @@ else {
 
 drawName(myName, letterColors);
 bounceBubbles();
+
+$(document).ready(function() {
+  $("#green").on("mouseenter", function() {
+    $(this).css("background", "white");
+    $(this).css("color", "limegreen")
+  });
+  
+  $("#green").on("mouseleave",function()  {
+  	$(this).css("background", "limegreen");
+  	$(this).css("color", "white");
+  });
+  
+  $("#orange").on("mouseenter", function() {
+    $(this).css("background", "white");
+    $(this).css("color", "orange");
+  });
+  
+  $("#orange").on("mouseleave",function()  {
+  	$(this).css("background", "orange");
+  	$(this).css("color", "white");
+  });
+  
+});
