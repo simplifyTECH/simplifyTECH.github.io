@@ -19,25 +19,14 @@ else {
 drawName(myName, letterColors);
 bounceBubbles();
 
-$(document).ready(function() {
-  $("#green").on("mouseenter", function() {
-    $(this).css("background", "white");
-    $(this).css("color", "limegreen")
-  });
-  
-  $("#green").on("mouseleave",function()  {
-  	$(this).css("background", "limegreen");
-  	$(this).css("color", "white");
-  });
-  
-  $("#orange").on("mouseenter", function() {
-    $(this).css("background", "white");
-    $(this).css("color", "orange");
-  });
-  
-  $("#orange").on("mouseleave",function()  {
-  	$(this).css("background", "orange");
-  	$(this).css("color", "white");
-  });
-  
-});
+$('canvas').click(function ()	{
+		$(this).slideUp () ;
+	});
+	
+$('#orange').click(function ()	{
+		$(this).slideUp () ;
+	});
+	
+$('#green').click(function ()	{
+		$(this).slideUp	()	;
+	});

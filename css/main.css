@@ -96,7 +96,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
+
+ 
 body {
             text-align: center;
             background-color: #616162;
@@ -110,15 +111,13 @@ body {
    
         
 canvas {
-			background-image:url('http://i.imgur.com/qQ8opcT.jpg'); 
-			background-repeat: no-repeat;
-			
-			background-attachment: fixed;
-			background-position: center center;
                 border: 5px solid white;
                 border-radius: 24px;
 }
 
+table{
+		
+}
 
 #orange        {
                 font-size: 64px;
