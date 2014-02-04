@@ -107,6 +107,7 @@ body {
    
         
 canvas {
+				background-image: "http://i.imgur.com/0VqKZ9R.png";
                 border: 5px solid white;
                 border-radius: 24px;
 }
